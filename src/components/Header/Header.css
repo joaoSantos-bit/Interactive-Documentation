@@ -1,0 +1,55 @@
+.topNavigation {
+  width: 25%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  position: relative;
+}
+
+.headerLogo {
+  height: 50px;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.header .listItem {
+  list-style: none;
+  font-family: var(--fontFamily);
+  color: var(--contentColor);
+  font-size: var(--contentFontSize);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: ease-in-out 0.1s;
+}
+
+.listItem:hover {
+  background-color: rgba(1, 1, 1, 0.05);
+}
+
+.highlightedNavItem {
+  background-color: rgba(1, 1, 1, 0.05);
+}
+
+.githubExternalLink {
+  display: flex;
+  align-items: center;
+  color: var(--contentColor);
+}

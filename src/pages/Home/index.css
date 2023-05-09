@@ -1,0 +1,30 @@
+.homeMainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.mainContentLogo {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.btnSection-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnsSection {
+  text-align: center;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeFooter {
+  background-color: #e98300;
+  height: 50px;
+}

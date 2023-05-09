@@ -1,0 +1,11 @@
+:root {
+  --fontFamily: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --firstColor: #e98300;
+  --secondaryColor: rgb(66, 152, 181);
+  --contentFontSize: 16px;
+  --contentColor: #525252;
+}
+
+body {
+  background-color: #f4f4f8;
+}

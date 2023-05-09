@@ -1,0 +1,21 @@
+.testCvc5MainContent {
+  display: flex;
+  align-items: center;
+}
+
+.promptSection {
+  padding: 30px 0 0 100px;
+  height: calc(100vh - 80px);
+}
+
+.promptSection .title-1 {
+  font-family: var(--fontFamily);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.promptSection .title-2 {
+  font-family: var(--fontFamily);
+  font-size: 16px;
+  font-weight: 400;
+}
